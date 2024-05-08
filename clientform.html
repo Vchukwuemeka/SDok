@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up-client/Searchdok</title>
+    <link rel="stylesheet" href="clientform.css">
+</head>
+<body>
+    <article class="Sign-up">
+        <nav class="navbar">
+            <img src="img/SD-02.jpg" alt="" width="200" height="150">
+        </nav>
+        <main>
+            <h2 class="h2-1">Signing up as a Client</h2>  
+            <p class="p-1">Sign up and get access to a wide range of talent for you to hire.</p>
+            <div class="grid-container">
+                <div class="email-input-container">
+                    <label for="email" class="email-label">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="password-container">
+                    <label for="password" class="password-label">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="btn-2" id="btn-2">Sign Up</button>
+                    <script>
+                        const button = document.getElementById('btn-2');
+                        button.addEventListener('click', () => {
+                            window.location.href = 'username.html'
+                        })
+                    </script>
+                </div>
+                <div class="p-2">
+                    <p>Already have an account?<a href="login.html">Login here</a></p>
+                </div>
+            </div>
+        </main>
+    </article>
+</body>
+</html>

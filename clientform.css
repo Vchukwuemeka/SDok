@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Paytone+One&family=Roboto&display=swap');
+
+* {
+    font-family: 'inter';
+}
+
+body {
+    display: grid;
+    place-items: left;
+    margin: 0;
+    height: 100vh;
+    padding: 0 500px 0 0;
+    background-color: black;
+}
+
+article {
+    background-color: #FFFAF0;
+    background-size: cover;
+}
+
+.navbar {
+    padding-left: 50px;
+}
+
+.h2-1 {
+    text-align: center;
+    padding-top: 5%;
+    color: #331700;
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: -2%;
+}
+
+.p-1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+}
+
+.email-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.email-label {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 12px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#email:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.password-label {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+#password {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.btn-2 {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: #fb5300;
+    color: white;
+    cursor: pointer;
+}
+
+.p-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

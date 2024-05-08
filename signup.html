@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up/Searchdok</title>
+    <link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="img/SD-02.jpg" alt="" width="200" height="150">
+    </nav>
+    <main>
+        <h2 class="h2-1">How do you want to use Searchdok?</h2>
+        <div class="grid-container">
+            <div>
+                <button class="btn-1" id="btn-1">
+                    <h3 class="h3-1">As a Client</h3>
+                    <p class="p-1">I want to discover and hire top African talents for a project</p>
+                </button>
+                <script>
+                    const button = document.getElementById('btn-1');
+                    button.addEventListener('click', () => {
+                        window.location.href = 'clientform.html';
+                    });
+                </script>
+            </div>
+            <div>
+                <button href="talentform.html" class="btn-1">
+                    <h3 class="h3-1">As a Talent</h3>
+                    <p class="p-1">I have the skills i want to offer my services for pay</p>
+                </button>
+            </div>
+        </div>
+        <div>
+            <h3 class="h3-2">Already have an account?<a href="#" class="a-1">Login here</a></h3>
+        </div>
+    </main>u
+</body>
+</html>

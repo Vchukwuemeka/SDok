@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Paytone+One&family=Roboto&display=swap');
+
+
+* {
+    font-family: 'inter';
+}
+
+body {
+    background-color: #FFFAF0;
+}
+
+.navbar {
+    top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    display: flex;
+    margin-top: 50px;
+    align-items: right;
+}
+
+.ul-1 {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+}
+
+.search {
+    padding: 0.5em;
+    border-radius: 10px;
+    width: 250px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.sign-up {
+    text-decoration: none;
+    background-color: #fb5300;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-wrap: nowrap;
+}
+
+.login {
+    text-decoration: none;
+    background-color: white;
+    padding: 12px 30px;
+    border: 3px solid; 
+    border-radius: 10px;
+    color: #fb5300;
+    border-color: #fb5300;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: normal;
+    font-stretch: expanded;
+    text-align: center;
+    color: rgb(52, 30, 1);
+}
+
+span {
+    color: #fb5300;
+}
+
+.hiring {
+    text-align: center;
+    font-weight: 400;
+    color: #333;
+}
+
+.btn-1 {
+    font-size: larger;
+    margin-left: 45%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #fb5300;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 130px 500px 500px;
+    grid-template-rows: 300px 300px 200px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    column-gap: 1em;
+    row-gap: 0.5em;
+    text-wrap: wrap;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.box:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(img/male-employee-getting-used-his-new-office-job-along-with-female-colleagues.jpg);
+    background-size: cover;
+}
+
+.box:nth-child(2) {
+    background-image: url(img/close-up-person-working-alternative-energy_23-2149311495.jpg);
+    background-size: 100%;
+}
+
+.box:nth-child(3) {
+    background-image: url(img/medium-shot-woman-working-laptop.jpg);
+    background-size: 100%;
+}
+
+.how {
+    text-align: center;
+    color: #fb5300;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.h2-1 {
+    color: rgb(52, 30, 1);
+}
+
+.box-1 {
+    display: flex;
+    justify-content: stretch;
+    gap: 4em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.h3-1 {
+    text-align: center;
+    color: rgb(52, 30, 1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.box-2 {
+    border-radius: 0 0 0 200px;
+    background-color: black;
+    background-image: url(img/medium-shot-colleagues-sitting-desk.jpg);
+    background-size: 100% 100%;
+}
+
+.box-3 {
+    border: solid 1px;
+    border-radius: 0 0 150px 0;
+    background-color: black;
+}
+
+.h2-2 {
+    color: rgb(52, 30, 1);
+}
+
+.h3-2 {
+    color: rgb(52, 30, 1);
+}
+
+.learn {
+    color: #fb5300;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.categories {
+    text-align: center;
+    padding-top: 80px;
+    font-size: x-large;
+}
+
+.p-2 {
+    color: #fb5300;
+    font-weight: 700;
+}
+
+.h2-3 {
+    color: rgb(52, 30, 1);
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.gigs {
+    background-color: #FFEEE0;
+    padding: 30px;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    color: #331700;
+    text-align: left;
+    border: solid 2px #FED0AA;
+    font-weight: 500;
+}
+
+.gigs:nth-last-child(1) {
+    background-color: #fb5300;
+    text-decoration: underline white;
+}
+
+.browse {
+    color: white;
+}
+
+.talents {
+    text-align: center;
+    padding-top: 80px;
+    font-size: x-large;
+}
+
+.p-3 {
+    color: #fb5300;
+    font-weight: 700;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    gap: 2em;
+    margin: 0 auto;
+}
+
+.profiles {
+    text-align: center;
+    border: solid 1px;
+    height: 50vh;
+    width: 250px;
+}
+
+.view-profile {
+    padding: 10px;
+    border: solid 1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #fb5300;
+}
+
+.skill {
+    padding-bottom: 150px;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #000;
+    padding-top: 50px;
+}
+
+.h1-1 {
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.btn-2 {
+    padding: 18px;
+    border: solid 2px #fb5300;
+    border-radius: 15px;
+    background-color: #fb5300;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6em;
+}
+
+.item {
+    padding: 20px;
+}
+
+.item:nth-child(2) {
+    color: white;
+}
+
+.ul-2 {
+    color: white;
+    list-style-type: none;
+}
+
+.links-2 {
+    color: white;
+}
+
+.img {
+    margin-left: 60px;
+}
+
+
+label {
+    color: white;
+    margin-left: 100px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 130px;
+    margin-bottom: 50px;
+}
+
+.btn-3 {
+    padding: 10px;
+    color: white;
+    background: #fb5300;
+    border: 1px solid #fb5300;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
